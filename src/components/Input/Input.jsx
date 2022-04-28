@@ -1,11 +1,15 @@
 
-const Input = ({name,type,placeholder}) =>{
+const Input = ({name,type,placeholder,autoComplete}) =>{
     
     return(
-        <div>
-            <label form={name}>{name}</label>
-            <input type={type} id={name} placeholder={placeholder} name={name}/>
-        </div>
+        
+        <label form={name}>
+            {name}
+            <input type={type} id={name} placeholder={placeholder} autoComplete={autoComplete} name={name}   required/>
+        </label>
+        
+            
+        
     )
 }
 
