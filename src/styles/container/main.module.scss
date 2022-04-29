@@ -1,0 +1,77 @@
+@import '../abstracts/colors';
+
+.container{
+
+    .section1{
+        background-color:$primary-blue;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 20rem;
+
+        h1{
+            color: $primary-white;
+            text-align: center;
+            
+        }
+    }
+
+    .section2{
+        padding: 4rem 2rem;
+        font-size: clamp(1rem,2.5vw,1.6rem);
+        
+
+        h2{
+            padding-bottom: 2rem;
+        }
+    }
+
+    .section3{
+        padding: 2rem 2rem;
+        font-size: clamp(1rem,2.5vw,1.6rem);
+
+        h3{
+            padding-bottom: 1rem;
+        }
+
+        li{
+            margin-left: 3rem;
+        }
+    }
+
+    .section4{
+        list-style: none;
+    }
+
+    .section5{
+
+        padding: 4rem 2rem;
+        font-size: clamp(1rem,2.5vw,1.6rem);
+        
+
+        h2{
+            padding-bottom: 2rem;
+        }
+        p{
+            padding-bottom: 2rem;
+        }
+        li{
+            margin-left: 4rem;
+        }
+    }
+
+    .section6{
+
+        padding: 2rem 2rem;
+        font-size: clamp(1rem,2.5vw,1.6rem);
+
+        h2{
+            padding-bottom: 1rem;
+        }
+
+        li{
+            margin-left: 3rem;
+        }
+    }
+
+}

@@ -1,0 +1,31 @@
+@import '../abstracts/colors';
+
+.container{
+    padding: 2rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-top: solid 0.1rem gray;
+    margin-top: 2rem;
+
+    .span{
+        font-size: clamp(1rem,2vw,1.6rem);
+    }
+
+    .icon{
+        display: flex;
+        justify-content: space-between;
+        a{
+            i{
+                font-size: 1.6rem;
+                color: $primary-icon;
+                padding-right: 2rem;
+                &:hover{
+                    color: rgb(15, 182, 233);
+                }
+            }
+        }
+    }
+
+}

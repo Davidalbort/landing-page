@@ -1,0 +1,38 @@
+@import '../abstracts/colors';
+
+.container{
+    text-align: center;
+    font-size: clamp(1rem,2vw,1.6rem);
+    margin: 0 2rem;
+
+    .fieldset{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: clamp(2rem,2vw,2rem) clamp(6rem,2vw,6rem);
+        width: clamp(3rem,100%,124rem);
+
+        .label{
+
+            display: flex;
+            flex-direction: column;
+            text-align: initial;
+            padding: 1rem;
+
+            input{
+                margin-top: 1rem;
+            }
+        }
+        .submit{
+            input{
+                background: $primary-green;
+                border-radius: 1.2rem;
+                color: $link-hover;
+                width: 12rem;
+
+            }
+            
+        }
+    }
+}
+

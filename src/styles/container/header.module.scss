@@ -1,0 +1,43 @@
+@import  '../abstracts/colors';
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+    top: 0;
+    position: sticky;
+    background: $primary-black;
+    border-bottom: solid 0.1rem;
+    border-color: rgb(229,231,235);
+    font-size: clamp(1.0rem,2.5vw,1.6rem);
+    flex-wrap: wrap;
+
+    .nav{
+        .a{
+            color: $primary-white;
+            padding-right: 1rem;
+            text-decoration: none;
+            &:hover{
+                color: $primary-green;
+            }
+        }
+    }
+    .languageToogle{
+        button {
+            background-color: inherit;
+            color: $primary-white;
+            padding: 8px;
+            pointer-events: auto;
+            border: none;
+            font-size: clamp(1.0rem,2.5vw,1.6rem);
+    
+            &:hover {
+                color: $primary-green;
+            }
+        }
+    }
+}
+
+
