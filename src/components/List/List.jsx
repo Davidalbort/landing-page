@@ -1,11 +1,11 @@
 
-const List = ({listItem,typeList}) => {
-    const createList = listItem.map(item => <li>{item}</li>);
+const List = ({listItem,typeList,className}) => {
+    const createList = listItem.map(item => <li key={item}>{item}</li>);
     const createTypeList = typeList === 'ol' ? <ol>{createList}</ol>:
                            typeList === 'ul' ? <ul>{createList}</ul>:
                            <li>{createList}</li>
     return(
-        <div className="">
+        <div className={className}>
             {createTypeList}
         </div>
     )

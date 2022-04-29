@@ -8,12 +8,20 @@ const Section = ({headingType,titleHeading,paragraph,typeList,listItem,className
                                                 <h4> {titleHeading} </h4>
     return(
         <section className={className} id={id}>
-        {createHeading}
-        <p>{paragraph}</p>
-        <List
-            typeList={typeList}
-            listItem={listItem}
-        />
+
+            {createHeading}
+
+            <p>
+
+                {paragraph}
+
+            </p>
+
+            <List
+                key={titleHeading}
+                typeList={typeList}
+                listItem={listItem}
+            />
 
         </section>
     )
