@@ -1,6 +1,17 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
+```
+- This project was created with the react js library, in order to reuse the -components in the landing page, and also styled components and containers with the modules of Scss. Creation of styles for components and containers with Scss modules, taking into account mobile first, this was done without media query in order not to rewrite style code.
+- This challenge was done in one day.
+```
+# Development process
+```
+-Reading and analyzing the documentation (landing-page)
+-Making a sketch in paint of the app interface
+-Creating components and then containers for structurution of  app with semantict HTML.
+-Creating basic logic and interaction between components and containers
+-Creation of styles for components and containers with Scss modules
+-documented all the journey
+```
 
 ## Available Scripts
 
